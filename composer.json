@@ -1,0 +1,33 @@
+{
+    "name": "pjotrvdh/laravel-prompts-themes",
+    "description": "Laravel Prompts Themes",
+    "license": "MIT",
+    "homepage": "https://github.com/pjotrvdh/laravel-prompts-themes",
+    "support": {
+        "issues": "https://github.com/pjotrvdh/laravel-prompts-themes/issues",
+        "source": "https://github.com/pjotrvdh/laravel-prompts-themes"
+    },
+    "authors": [
+        {
+            "name": "Pjotr van der Horst",
+            "email": "pjotrvdh@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/prompts": "^0.1",
+        "spatie/laravel-package-tools": "^1.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pjotrvdh\\LaravelPromptsThemes\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pjotrvdh\\LaravelPromptsThemes\\PromptsThemesServiceProvider"
+            ]
+        }
+    }
+}
